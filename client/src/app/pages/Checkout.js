@@ -466,19 +466,19 @@ function Checkout() {
                     </div>
                     <div className="flex items-center gap-x-3">
                       <input
-                        id="UPI"
+                        id="Crypto"
                         name="payments"
                         onChange={handlePayment}
                         type="radio"
-                        value="UPI"
-                        checked={paymentMethod === "UPI"}
+                        value="Crypto"
+                        checked={paymentMethod === "Crypto"}
                         className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
                       />
                       <label
-                        htmlFor="UPI"
+                        htmlFor="Crypto"
                         className="block text-sm font-medium leading-6 text-gray-900"
                       >
-                        UPI
+                        Crypto
                       </label>
                     </div>
                   </div>
